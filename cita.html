@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Citas RSCE</title>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="./index.html">
+                    <img src="./img/logo.jpg" alt="Logotipo">
+                </a>
+
+                <ul class="nav-links" id="nav-links">
+                    <li><a id="linkCita" href="./cita.html">Registrar Cita</a></li>
+                    <li><a id="linkAbout" href="./index.html">Acerca de</a></li>
+                    <li><a id="linkContact" href="./contact.html">Contacto</a></li>
+                </ul>
+
+                <div class="hamburguer" id="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <Main>
+            <h1>Acosta Financial and Compliance Consulting</h1>
+            <form method="post" class="formulario">
+
+                <h2>Selecciona tu cita</h2>
+
+                <div class="campo">
+                    <label for="fecha">Seleccione el dia de la cita</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                
+                <div class="campo">
+                    <label for="hora">Seleccione hora de la cita</label>
+                    <input type="time" name="hora" id="hora">
+                </div>
+                
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Su Nombre">
+                </div>
+                
+                <div class="campo">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Su Apellido">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Su Email">
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Su Telefono">
+                </div>
+
+                <input class="btnSubmit" type="submit" value="Registrar Cita">
+                
+            </form>
+        </Main>
+
+        <footer>
+            Copyright &copy; 2025 Acosta Financial and Compliance Consulting - Todos los Derechos Reservados. 
+        </footer>
+        
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+</html>
