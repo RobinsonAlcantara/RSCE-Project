@@ -271,6 +271,27 @@ ul{
         
     }
 }
+ /*Estilos de Alertas*/
+ .alerta{
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;    
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px black;
+    width: 500px;
+    
+    &.error{
+        background-color: rgb(221, 94, 94);
+        color: white;
+    }
+
+    &.exito{
+        background-color: var(--color-light);
+        color: white;
+    }
+
+ }
 
 
 
